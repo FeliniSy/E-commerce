@@ -3,7 +3,7 @@
     {
       "id": 3,
       "orderNo": 3,
-      "name": "TV & Audio",
+      "name": "ტელევიზორები და აუდიო სისტემები",
       "parentCategoryId": null,
       "parentCategoryName": null,
       "iconUrl": "https://imgstore.alta.ge/images/cca43c78-55c4-45bc-9548-01afd095313c_Thumb.png",
@@ -83,7 +83,7 @@
     {
       "id": 6,
       "orderNo": 6,
-      "name": "Home Appliances",
+      "name": "მსხვილი საყოფაცხოვრებო ტექნიკა",
       "parentCategoryId": null,
       "parentCategoryName": null,
       "iconUrl": "https://imgstore.alta.ge/images/49b9b373-7cea-404e-b5a5-b5d138dc4279_Thumb.png",
@@ -99,7 +99,7 @@
     {
       "id": 9,
       "orderNo": 8,
-      "name": "House and Garden",
+      "name": "სახლის და ეზოს მოვლა ",
       "parentCategoryId": null,
       "parentCategoryName": null,
       "iconUrl": "https://imgstore.alta.ge/images/98dae5b2-6905-49d2-a364-c64df35dd8d4_Thumb.png",
@@ -115,7 +115,7 @@
     {
       "id": 10,
       "orderNo": 9,
-      "name": "Personal Care",
+      "name": "თავის მოვლა",
       "parentCategoryId": null,
       "parentCategoryName": null,
       "iconUrl": "https://imgstore.alta.ge/images/eb67d0fa-c130-4d84-b314-ba92462f1e4f_Thumb.png",
@@ -131,7 +131,7 @@
     {
       "id": 7,
       "orderNo": 7,
-      "name": "Small Domestic Appliances",
+      "name": "წვრილი საოჯახო ტექნიკა",
       "parentCategoryId": null,
       "parentCategoryName": null,
       "iconUrl": "https://imgstore.alta.ge/images/afb63cc7-954c-4557-8112-18ec07808f10_Thumb.png",
@@ -147,7 +147,7 @@
     {
       "id": 11,
       "orderNo": 10,
-      "name": "Smart Home",
+      "name": "ჭკვიანი სახლი",
       "parentCategoryId": null,
       "parentCategoryName": null,
       "iconUrl": "https://imgstore.alta.ge/images/8efdf254-f2a4-44e4-94bd-02ffd6ddd263_Thumb.png",
