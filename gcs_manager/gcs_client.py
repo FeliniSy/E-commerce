@@ -1,6 +1,6 @@
-import requests
 from google.cloud import storage
 from google.cloud.exceptions import GoogleCloudError
+from google.auth.exceptions import DefaultCredentialsError
 
 from utils.helper import png_to_svg
 from utils.logger import logger
@@ -9,15 +9,32 @@ from utils.settings import settings
 
 class GCSClient:
     def __init__(self):
-        self.client = storage.Client()
-        self.bucket = self.client.get_bucket(settings.BUCKET_NAME)
+        self._client = None
+        self._bucket = None
+        self._credentials_available = True
+
+    def _connect(self):
+        if self._client is None and self._credentials_available:
+            try:
+                self._client = storage.Client()
+                self._bucket = self._client.get_bucket(settings.BUCKET_NAME)
+            except DefaultCredentialsError:
+                logger.warning("GCS credentials not found. Image uploads will be skipped.")
+                self._credentials_available = False
+                self._client = None
+                self._bucket = None
 
     def upload_image(self, url, name):
         logger.info(f"Uploading {url} to {name}")
-        try:
+        self._connect()
 
+        if not self._credentials_available or self._client is None:
+            logger.warning(f"Skipping GCS upload for {name} - credentials not available")
+            return None
+
+        try:
             content = png_to_svg(url).encode("utf-8")
-            blob = self.bucket.blob(f'category_images1/{name}.svg')
+            blob = self._bucket.blob(f'category_images1/{name}.svg')
             blob.upload_from_string(content, content_type='image/svg+xml')
 
             logger.info(f"Successfully uploaded: {blob.public_url}")
