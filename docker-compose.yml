@@ -28,7 +28,9 @@ services:
     environment:
       DB_URL: postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-postgres}@db:5432/${POSTGRES_DB:-ecommerce}
     volumes:
+      - .:/app
       - ./logs:/app/logs
+      - ./credentials:/app/credentials:ro
 
 volumes:
   pgdata:
