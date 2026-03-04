@@ -3,6 +3,7 @@ from utils.logger import logger
 
 _playwright = None
 _browser = None
+_context = None
 
 
 async def get_browser():
@@ -14,13 +15,21 @@ async def get_browser():
     return _browser
 
 
+async def get_context():
+    global _context
+    if _context is None:
+        logger.info("Creating browser context")
+        browser = await get_browser()
+        _context = await browser.new_context(
+            user_agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+        )
+    return _context
+
+
 async def page_scrapper(url: str, *args) -> dict:
     target_url = url.format(*args)
     logger.info(f"Scraping: {target_url}")
-    browser = await get_browser()
-    context = await browser.new_context(
-        user_agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
-    )
+    context = await get_context()
     page = await context.new_page()
     result = {}
 
@@ -42,12 +51,15 @@ async def page_scrapper(url: str, *args) -> dict:
 
     page.on("response", handle_response)
     await page.goto(target_url, wait_until="networkidle")
-    await context.close()
+    await page.close()
     return result
 
 
 async def close_browser():
-    global _playwright, _browser
+    global _playwright, _browser, _context
+    if _context:
+        await _context.close()
+        _context = None
     if _browser:
         await _browser.close()
         await _playwright.stop()

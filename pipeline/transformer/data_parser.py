@@ -34,7 +34,7 @@ def parse_data(product_data: dict) -> ParsedProduct:
             if img_source_url:
                 parent_image_url = gcs_client.upload_image(img_source_url, parent_cat_name)
     except Exception as e:
-        print(f"გაფრთხილება: სურათი ვერ აიტვირთა კატეგორიისთვის {parent_cat_name}: {e}")
+        print(f"warning: the images is not uploaded for the category {parent_cat_name}: {e}")
         parent_image_url = None
 
     parent_cat_id = get_or_create_category(
