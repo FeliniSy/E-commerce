@@ -6,6 +6,7 @@ class Settings(BaseSettings):
     PRODUCT_URL:str = "https://api.alta.ge/v1/Products/details?productId={0}"
     DB_URL:str = "postgresql://postgres:postgres@localhost:5432/ecommerce"
     BUCKET_NAME:str = "vipo-images"
+    GCS_KEY_PATH:str = "/home/user/Downloads/vipo-demo-eeed73f5c829.json"
 
 
     model_config = SettingsConfigDict(
