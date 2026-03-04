@@ -2,6 +2,8 @@ import json
 import re
 import uuid
 
+_CATEGORY_ICON_CACHE = None
+
 
 def get_data_id(data: list) -> list:
     all_product = []
@@ -17,23 +19,21 @@ def slugify(name: str) -> str:
     slug = re.sub(r'[^\w\-]', '', slug, flags=re.UNICODE)
     return slug or str(uuid.uuid4())[:8]
 
-def get_json_for_icon():
-    with open("categories.json", "r") as f:
-        data = json.loads(f.read())
 
-    return data.get("categories",[])
+def get_json_for_icon():
+    global _CATEGORY_ICON_CACHE
+    if _CATEGORY_ICON_CACHE is None:
+        with open("categories.json", "r") as f:
+            data = json.loads(f.read())
+        categories = data.get("categories", [])
+        _CATEGORY_ICON_CACHE = {cat["name"]: cat["iconUrl"] for cat in categories}
+    return _CATEGORY_ICON_CACHE
+
 
 def get_images_url(name):
-    data = get_json_for_icon()
-    for i in data:
-        if i["name"] == name:
-            icon_url = i["iconUrl"]
-            return icon_url
-    return None
+    icon_cache = get_json_for_icon()
+    return icon_cache.get(name)
 
-
-import io, requests, numpy as np
-from PIL import Image
 
 import io
 import requests
