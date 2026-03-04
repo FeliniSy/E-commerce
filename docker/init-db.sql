@@ -69,15 +69,15 @@ CREATE TABLE products (
     category_id INT NOT NULL,
     supplier_id INT NOT NULL,
     brand_id INT NOT NULL,
-    cover_image_url VARCHAR(500), -- Updated type per your alter
+    cover_image_url VARCHAR(500),
     title VARCHAR(255) NOT NULL,
     description TEXT,
     price DECIMAL(10,2) NOT NULL CONSTRAINT chk_price_positive CHECK (price >= 0),
     cost_price DECIMAL(10,2) NOT NULL DEFAULT 0 CONSTRAINT chk_cost_positive CHECK (cost_price >= 0),
-    sku VARCHAR(500) , -- Updated length per your alter
+    sku VARCHAR(500) ,
     stock_quantity INT NOT NULL DEFAULT 0,
     original_url VARCHAR(2048) UNIQUE,
-    sell_type VARCHAR(150), -- Added per your alter
+    sell_type VARCHAR(150),
     is_active BOOLEAN DEFAULT TRUE,
     is_deleted BOOLEAN DEFAULT FALSE,
     created_at TIMESTAMP(0) DEFAULT CURRENT_TIMESTAMP,
@@ -85,7 +85,6 @@ CREATE TABLE products (
     CONSTRAINT fk_products_cat FOREIGN KEY (category_id) REFERENCES categories(id) ON DELETE NO ACTION,
     CONSTRAINT fk_products_supplier FOREIGN KEY (supplier_id) REFERENCES suppliers(id) ON DELETE NO ACTION,
     CONSTRAINT fk_products_brand FOREIGN KEY (brand_id) REFERENCES brands(id) ON DELETE NO ACTION
-    -- Note: fk_products_cover_image was dropped in your alter commands
 );
 
 CREATE TABLE product_images (
