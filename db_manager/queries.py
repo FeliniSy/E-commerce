@@ -6,7 +6,9 @@ select_category = """
 
 insert_category = """
                   INSERT INTO categories (name, parent_id, slug, image_url)
-                  VALUES (%s, %s, %s, %s) ON CONFLICT (slug) DO NOTHING \
+                  VALUES (%s, %s, %s, %s) ON CONFLICT (slug) DO
+                  UPDATE SET
+                      image_url = COALESCE (EXCLUDED.image_url, categories.image_url) \
                   """
 
 select_brand = "SELECT id FROM brands WHERE name = %s"
