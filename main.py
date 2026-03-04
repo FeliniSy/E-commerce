@@ -38,36 +38,53 @@ async def process_product(item: int):
         logger.error(f"Product {item} — FAILED: {e}", exc_info=True)
 
 
-async def main():
+async def process_category(category_id: int, product_semaphore: asyncio.Semaphore):
     main_page_url = settings.MAIN_URL
+    logger.info(f"Starting category {category_id}")
+
     try:
-        for i in range(1, 295):
-            logger.info(f"Starting category {i}")
-            for j in range(1, 10001):
-                logger.info(f"Category {i} | Page {j}")
-                data = await page_scrapper(main_page_url, i, j)
+        for page_num in range(1, 10001):
+            logger.info(f"Category {category_id} | Page {page_num}")
+            data = await page_scrapper(main_page_url, category_id, page_num)
 
-                if data.get('httpStatusCode') == 500:
-                    logger.warning(f"Category {i} | Page {j} — 500 error")
-                    break
+            if data.get('httpStatusCode') == 500:
+                logger.warning(f"Category {category_id} | Page {page_num} — 500 error")
+                break
 
-                products = data.get('products', [])
-                if not products:
-                    logger.info(f"Category {i} | Page {j} — no products")
-                    break
+            products = data.get('products', [])
+            if not products:
+                logger.info(f"Category {category_id} | Page {page_num} — no products")
+                break
 
-                product_ids = get_data_id(products)
-                logger.info(f"Category {i} | Page {j} — {len(product_ids)} products")
+            product_ids = get_data_id(products)
+            logger.info(f"Category {category_id} | Page {page_num} — {len(product_ids)} products")
 
-                semaphore = asyncio.Semaphore(5)
+            async def process_with_semaphore(item):
+                async with product_semaphore:
+                    await process_product(item)
 
-                async def process_with_semaphore(item):
-                    async with semaphore:
-                        await process_product(item)
+            await asyncio.gather(*[process_with_semaphore(item) for item in product_ids])
 
-                await asyncio.gather(*[process_with_semaphore(item) for item in product_ids])
+        logger.info(f"Completed category {category_id}")
+    except Exception as e:
+        logger.error(f"Category {category_id} — FAILED: {e}", exc_info=True)
 
-                await asyncio.sleep(0.5)
+
+async def main():
+    try:
+        # Semaphore for concurrent products across all categories
+        product_semaphore = asyncio.Semaphore(30)
+        # Semaphore for concurrent categories
+        category_semaphore = asyncio.Semaphore(10)
+
+        async def process_category_with_semaphore(category_id):
+            async with category_semaphore:
+                await process_category(category_id, product_semaphore)
+
+        # Process all categories in parallel
+        await asyncio.gather(*[
+            process_category_with_semaphore(i) for i in range(1, 295)
+        ])
 
     except Exception as e:
         logger.critical(f"Pipeline crashed: {e}", exc_info=True)
