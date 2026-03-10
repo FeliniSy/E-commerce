@@ -2,8 +2,8 @@ from psycopg2 import pool
 from utils.settings import settings
 
 connection_pool = pool.ThreadedConnectionPool(
-    minconn=2,
-    maxconn=10,
+    minconn=5,
+    maxconn=50,
     dsn=settings.DB_URL
 )
 

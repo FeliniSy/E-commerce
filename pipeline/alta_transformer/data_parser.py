@@ -2,8 +2,8 @@ import json
 from dataclasses import dataclass
 
 from gcs_manager.gcs_client import gcs_client
-from pipeline.transformer.brand_handler import get_or_create_brand, extract_brand
-from pipeline.transformer.category_handler import get_or_create_category
+from pipeline.alta_transformer.brand_handler import get_or_create_brand, extract_brand
+from pipeline.alta_transformer.category_handler import get_or_create_category
 from utils.helper import get_images_url
 
 
@@ -63,7 +63,7 @@ def parse_data(product_data: dict) -> ParsedProduct:
         supplier_id=1,
         brand_id=brand_id,
         cover_image_url=product.get("imageUrl"),
-        title=product.get("name", "უსახელო პროდუქტი"),
+        title=product.get("name", "Unknown"),
         description=product.get("description", ""),
         price=clean_price,
         stock_quantity=product.get("storageQuantity", 0),

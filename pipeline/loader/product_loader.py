@@ -1,6 +1,6 @@
 from db_manager.queries import select_product, insert_product, insert_product_image
 from pipeline.loader.loader import loader
-from pipeline.transformer.data_parser import ParsedProduct
+from pipeline.alta_transformer.data_parser import ParsedProduct
 
 
 def insert_product_to_db(parsed: ParsedProduct) -> int | None:
