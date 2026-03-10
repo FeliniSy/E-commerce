@@ -1,7 +1,7 @@
 import asyncio
 from datetime import datetime
 
-from main.alta_process import process_category
+from processes.alta_process import process_category
 from pipeline.extractor.scrapper import  close_browser
 
 from utils.logger import logger
