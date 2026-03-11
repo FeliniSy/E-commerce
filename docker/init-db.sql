@@ -199,9 +199,46 @@ select * from categories;
 insert into categories(parent_id, name, slug, image_url )
 			values(null, 'ტექნიკა', 'teqnika', 'https://storage.googleapis.com/vipo-images/category_images/%E1%83%A2%E1%83%94%E1%83%A5%E1%83%9C%E1%83%98%E1%83%99%E1%83%90.png');
 
+INSERT INTO categories (name, parent_id, slug, image_url)
+values ('რემონტი & ხელსაწყოები',null,'Repair & Tools','https://storage.googleapis.com/vipo-images/category_images/%E1%83%A0%E1%83%94%E1%83%9B%E1%83%9D%E1%83%9C%E1%83%A2%E1%83%98%20%26%20%E1%83%AE%E1%83%94%E1%83%9A%E1%83%A1%E1%83%90%E1%83%AC%E1%83%A7%E1%83%9D%E1%83%94%E1%83%91%E1%83%98.png');
+
+
+
 INSERT INTO suppliers (name, supplier_type) values ('alta', 'external');
 
 insert into external_scrapers(supplier_id,website_url,contact_phone,contact_email)
 values (1,'https://alta.ge/','(032) 238-00-38','retail@alta.ge');
 
 update categories set parent_id = 5 where id in (2,3,4);
+
+
+CREATE TABLE public.brand_categories (
+    brand_id INTEGER NOT NULL,
+    category_id INTEGER NOT NULL,
+
+    -- Composite Primary Key
+    -- ერთი ბრენდი ერთ კატეგორიაში მხოლოდ ერთხელ შეიძლება იყოს
+    CONSTRAINT pk_brand_categories
+        PRIMARY KEY (brand_id, category_id),
+
+    -- brands ცხრილთან კავშირი
+    CONSTRAINT fk_brand
+        FOREIGN KEY (brand_id)
+        REFERENCES public.brands (id)
+        ON UPDATE NO ACTION
+        ON DELETE CASCADE,
+
+    -- categories ცხრილთან კავშირი
+    CONSTRAINT fk_category
+        FOREIGN KEY (category_id)
+        REFERENCES public.categories (id)
+        ON UPDATE NO ACTION
+        ON DELETE CASCADE
+);
+
+
+ALTER TABLE products
+ADD CONSTRAINT fk_products_cat
+FOREIGN KEY (category_id)
+REFERENCES categories(id)
+ON DELETE CASCADE;
