@@ -50,7 +50,16 @@ def parse_data(product_data: dict) -> ParsedProduct:
     )
 
     brand_name = extract_brand(product)
-    brand_id = get_or_create_brand(brand_name) if brand_name else get_or_create_brand("Unknown")
+
+    if not brand_name:
+        product_name = product.get("name", "")
+        if product_name:
+            first_word = product_name.split()[0] if product_name.split() else None
+            if first_word and len(first_word) > 2:
+                print(f"⚠️  Using first word as brand: '{first_word}' from product: {product_name}")
+                brand_name = first_word
+
+    brand_id = get_or_create_brand(brand_name if brand_name else "Unknown")
 
     try:
         raw_price = product.get("price", 0)

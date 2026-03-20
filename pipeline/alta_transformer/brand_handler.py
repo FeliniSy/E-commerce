@@ -11,19 +11,41 @@ def get_or_create_brand(name: str) -> int:
         return result[0][0]
     result = loader.fetch(insert_brand, params=(name,))
     return result[0][0]
+
+
+def clear_brand_cache():
+    get_or_create_brand.cache_clear()
+    print("✓ Brand cache cleared")
+
+
 def extract_brand(product: dict) -> str | None:
     try:
+        if "brandName" in product and product["brandName"]:
+            return product["brandName"]
+
+        if "brand" in product and product["brand"]:
+            return product["brand"]
+
         spec_groups = product.get("specificationGroup", [])
         if not spec_groups:
+            print(f"⚠️  No specificationGroup found for product: {product.get('name', 'Unknown')}")
             return None
 
-        specifications = spec_groups[0].get("specifications", [])
-        if not specifications:
-            return None
+        for spec_group in spec_groups:
+            specifications = spec_group.get("specifications", [])
+            if not specifications:
+                continue
 
-        brand = specifications[0].get("specificationMeaning")
-        return brand if brand else None
+            for spec in specifications:
+                if spec.get("specificationName") == "ბრენდი":
+                    brand = spec.get("specificationMeaning")
+                    if brand:
+                        print(f"✓ Found brand: {brand} for product: {product.get('name', 'Unknown')}")
+                        return brand
 
-    except (KeyError, IndexError, TypeError):
+        print(f"⚠️  No brand found in specifications for product: {product.get('name', 'Unknown')}")
         return None
 
+    except (KeyError, IndexError, TypeError) as e:
+        print(f"❌ Error extracting brand: {e} for product: {product.get('name', 'Unknown')}")
+        return None

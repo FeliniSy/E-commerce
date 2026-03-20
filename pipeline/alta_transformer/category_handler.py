@@ -7,6 +7,10 @@ from utils.helper import slugify
 
 @lru_cache(maxsize=512)
 def get_or_create_category(name: str, parent_id: int | None, image_url: str | None) -> int:
+    result = check_category(name)
+    if result is not None:
+        return result
+
     loader.execute(insert_category, params=(name, parent_id, slugify(name), image_url))
     result = check_category(name)
     if result is None:
