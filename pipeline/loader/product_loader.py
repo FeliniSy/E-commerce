@@ -4,10 +4,6 @@ from pipeline.alta_transformer.data_parser import ParsedProduct
 
 
 def insert_product_to_db(parsed: ParsedProduct) -> int | None:
-    existing = loader.fetch(select_product, params=(parsed.original_url,))
-    if existing:
-        return existing[0][0]
-
     result = loader.fetch(insert_product, params=(
         parsed.category_id,
         parsed.supplier_id,
@@ -20,7 +16,8 @@ def insert_product_to_db(parsed: ParsedProduct) -> int | None:
         parsed.sku or parsed.original_url,
         parsed.stock_quantity,
         parsed.original_url,
-        parsed.sell_type
+        parsed.sell_type,
+        True
     ))
     return result[0][0] if result else None
 
