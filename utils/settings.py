@@ -11,7 +11,8 @@ class Settings(BaseSettings):
     FURNITURE_PROD_API: str = "https://koncept.ge/collections/{0}/products.json?limit=250&page={1}"
 
     # DB URL
-    DB_URL:str = "postgresql://postgres:postgres@localhost:5432/ecommerce"
+    # DB_URL:str = "postgresql://postgres:postgres@localhost:5432/ecommerce"
+    DB_URL:str = "postgresql://user:password@10.217.143.178:5436/products_db"
 
     #GCS CLIENT
     BUCKET_NAME:str = "vipo-images"
