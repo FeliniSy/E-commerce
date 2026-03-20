@@ -3,14 +3,16 @@ from datetime import datetime
 
 from processes.alta_process import process_category
 from pipeline.extractor.scrapper import  close_browser
+from pipeline.alta_transformer.brand_handler import clear_brand_cache
 
 from utils.logger import logger
 
 
 
-
 async def main():
     try:
+        clear_brand_cache()
+
         product_semaphore = asyncio.Semaphore(30)
         category_semaphore = asyncio.Semaphore(10)
 
