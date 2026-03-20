@@ -41,7 +41,6 @@ class GCSClient:
             blob.upload_from_string(content, content_type='image/svg+xml')
 
             logger.info(f"Successfully uploaded: {blob.public_url}")
-            # Cache the result
             self._upload_cache[name] = blob.public_url
             return blob.public_url
         except GoogleCloudError as e:
