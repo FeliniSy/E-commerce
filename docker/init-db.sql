@@ -61,6 +61,7 @@ CREATE TABLE field_options (
     id SERIAL PRIMARY KEY,
     field_id INT NOT NULL,
     value TEXT NOT NULL, -- Updated from VARCHAR to TEXT per your alter
+    CONSTRAINT uq_field_option_value UNIQUE (field_id, value),
     CONSTRAINT fk_field_options_field FOREIGN KEY (field_id) REFERENCES fields(id) ON DELETE CASCADE
 );
 
@@ -136,8 +137,7 @@ CREATE TABLE platform_sellers (
     contact_phone VARCHAR(50),
     contact_email VARCHAR(255),
     bank_account_number VARCHAR(50),
-    CONSTRAINT fk_seller_supplier FOREIGN KEY (supplier_id) REFERENCES suppliers(id) ON DELETE CASCADE,
-    CONSTRAINT fk_seller_user FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE NO ACTION
+    CONSTRAINT fk_seller_supplier FOREIGN KEY (supplier_id) REFERENCES suppliers(id) ON DELETE CASCADE
 );
 
 CREATE TABLE profiles (
@@ -242,3 +242,6 @@ ADD CONSTRAINT fk_products_cat
 FOREIGN KEY (category_id)
 REFERENCES categories(id)
 ON DELETE CASCADE;
+
+
+alter table platform_sellers add column is_active boolean default false
