@@ -1,24 +1,9 @@
 import re
 from html import unescape
-from dataclasses import dataclass
+
+from db_manager.parsed_product import ParsedProduct
 from pipeline.alta_transformer.brand_handler import get_or_create_brand
 from pipeline.sportlines_transformer.category_handler import get_or_create_sportlines_category
-
-
-@dataclass
-class ParsedProduct:
-    category_id: int
-    supplier_id: int
-    brand_id: int
-    cover_image_url: str
-    title: str
-    description: str
-    price: float
-    stock_quantity: int
-    original_url: str
-    sell_type: str
-    cost_price: float = None
-    sku: str = None
 
 
 def clean_description(html_text: str) -> str:

@@ -1,26 +1,9 @@
-import json
-from dataclasses import dataclass
-
+from db_manager.parsed_product import ParsedProduct
 from gcs_manager.gcs_client import gcs_client
 from pipeline.alta_transformer.brand_handler import get_or_create_brand, extract_brand
 from pipeline.alta_transformer.category_handler import get_or_create_category
 from utils.helper import get_images_url
 
-
-@dataclass
-class ParsedProduct:
-    category_id: int
-    supplier_id: int
-    brand_id: int
-    cover_image_url: str
-    title: str
-    description: str
-    price: float
-    stock_quantity: int
-    original_url: str
-    sell_type: str
-    cost_price: float = None
-    sku: str = None
 
 
 def parse_data(product_data: dict) -> ParsedProduct:

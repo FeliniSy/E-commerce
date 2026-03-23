@@ -1,22 +1,8 @@
-from dataclasses import dataclass
+
+from db_manager.parsed_product import ParsedProduct
 from pipeline.alta_transformer.brand_handler import get_or_create_brand
 from pipeline.koncept_transformer.category_handler import get_or_create_collection_category
 
-
-@dataclass
-class ParsedProduct:
-    category_id: int
-    supplier_id: int
-    brand_id: int
-    cover_image_url: str
-    title: str
-    description: str
-    price: float
-    stock_quantity: int
-    original_url: str
-    sell_type: str
-    cost_price: float = None
-    sku: str = None
 
 
 def parse_koncept_product(product_data: dict, collection_handle: str) -> ParsedProduct:
