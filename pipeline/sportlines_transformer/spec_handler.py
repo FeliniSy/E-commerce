@@ -50,10 +50,6 @@ def parse_sportlines_specifications(product_data: dict, product_id: int, categor
             logger.error(f"Failed to create field: {attr_name}")
             continue
 
-        result = loader.fetch(select_category_field, (category_id, field_id))
-        if not result or len(result) == 0:
-            loader.execute(insert_category_field, (category_id, field_id, False))
-
         for term in terms:
             term_name = term.get("name")
             if not term_name:
@@ -70,6 +66,10 @@ def parse_sportlines_specifications(product_data: dict, product_id: int, categor
             if not option_id:
                 logger.error(f"Failed to create option: {term_name} for field {attr_name}")
                 continue
+
+            result = loader.fetch(select_category_field, (category_id, field_id, option_id))
+            if not result or len(result) == 0:
+                loader.execute(insert_category_field, (category_id, field_id, option_id, False))
 
             try:
                 loader.execute(insert_pfv, (product_id, field_id, option_id))

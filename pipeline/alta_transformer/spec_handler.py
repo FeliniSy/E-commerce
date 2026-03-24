@@ -23,8 +23,8 @@ def parse_specifications(product_data: dict, product_id: int, category_id: int):
                 continue
 
             field_id = get_or_create_field(spec_name, group_id)
-            get_or_create_category_field(category_id, field_id)
             option_id = get_or_create_option(spec_value, field_id)
+            get_or_create_category_field(category_id, field_id, option_id)
             pfv_batch.append((product_id, field_id, option_id))
 
     if pfv_batch:
@@ -53,11 +53,11 @@ def get_or_create_option(value: str, field_id: int) -> int:
     loader.execute(insert_option, params=(field_id, value))
     return loader.fetch(select_option, params=(field_id, value))[0][0]
 
-def get_or_create_category_field(category_id: int, field_id: int):
-    result = loader.fetch(select_category_field, params=(category_id, field_id))
+def get_or_create_category_field(category_id: int, field_id: int, option_id: int):
+    result = loader.fetch(select_category_field, params=(category_id, field_id, option_id))
     if result:
         return result[0][0]
-    loader.execute(insert_category_field, params=(category_id, field_id, False))
+    loader.execute(insert_category_field, params=(category_id, field_id, option_id, False))
     return None
 
 def insert_product_field_value(product_id: int, field_id: int, option_id: int):

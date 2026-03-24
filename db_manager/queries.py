@@ -44,12 +44,13 @@ select_category_field = """
                         SELECT id
                         FROM category_fields
                         WHERE category_id = %s
-                          AND field_id = %s \
+                          AND field_id = %s
+                          AND option_id = %s \
                         """
 
 insert_category_field = """
-                        INSERT INTO category_fields (category_id, field_id, is_required)
-                        VALUES (%s, %s, %s) ON CONFLICT (category_id, field_id) DO NOTHING \
+                        INSERT INTO category_fields (category_id, field_id, option_id, is_required)
+                        VALUES (%s, %s, %s, %s) ON CONFLICT (category_id, field_id, option_id) DO NOTHING \
                         """
 
 insert_supplier = """
