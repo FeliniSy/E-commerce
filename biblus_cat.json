@@ -1,0 +1,2253 @@
+[
+  {
+    "id": 291,
+    "parent_id": null,
+    "name": "წიგნები",
+    "image": "https://apiv1.biblusi.ge/storage/category/zmB5UCjzeHK3sz21knseYgN9L3KWOWAX6JBfC0s2.png",
+    "children": [
+      {
+        "id": 317,
+        "parent_id": 291,
+        "name": "პროფესიული",
+        "image": null,
+        "children": [
+          {
+            "id": 328,
+            "parent_id": 317,
+            "name": "ინტერიერ/ექსტერიერი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 327,
+            "parent_id": 317,
+            "name": "ხელსაქმე",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 325,
+            "parent_id": 317,
+            "name": "ნადირობა",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 324,
+            "parent_id": 317,
+            "name": "მოდა",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 323,
+            "parent_id": 317,
+            "name": "კულინარია",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 322,
+            "parent_id": 317,
+            "name": "მეთევზეობა",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 321,
+            "parent_id": 317,
+            "name": "სპორტი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 320,
+            "parent_id": 317,
+            "name": "იურიდიული",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 318,
+            "parent_id": 317,
+            "name": "ხელოვნება",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 319,
+            "parent_id": 317,
+            "name": "მედიცინა",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 316,
+            "parent_id": 317,
+            "name": "ჰოროსკოპი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 326,
+            "parent_id": 317,
+            "name": "სოფლის მეურნეობა",
+            "image": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 309,
+        "parent_id": 291,
+        "name": "სასწავლო-სამეცნიერო",
+        "image": null,
+        "children": [
+          {
+            "id": 500,
+            "parent_id": 309,
+            "name": "რელიგია",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 315,
+            "parent_id": 309,
+            "name": "სასწავლო-მოსამზადებელი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 314,
+            "parent_id": 309,
+            "name": "ისტორიული",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 313,
+            "parent_id": 309,
+            "name": "ფილოსოფია",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 312,
+            "parent_id": 309,
+            "name": "ფსიქოლოგია",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 311,
+            "parent_id": 309,
+            "name": "ენციკლოპედია",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 310,
+            "parent_id": 309,
+            "name": "ბიზნეს ლიტერატურა",
+            "image": "https://apiv1.biblusi.ge/storage/category/LXi1PXt41mUTQDYMs54fxIutMFn9J6QAZgczQw3k.png",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 305,
+        "parent_id": 291,
+        "name": "საყმაწვილო",
+        "image": null,
+        "children": [
+          {
+            "id": 308,
+            "parent_id": 305,
+            "name": "საყმაწვილო შემეცნებითი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 307,
+            "parent_id": 305,
+            "name": "ფენტეზი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 306,
+            "parent_id": 305,
+            "name": "მხატვრული",
+            "image": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 300,
+        "parent_id": 291,
+        "name": "საბავშვო",
+        "image": null,
+        "children": [
+          {
+            "id": 304,
+            "parent_id": 300,
+            "name": "საბავშვო შემეცნებითი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 303,
+            "parent_id": 300,
+            "name": "ლექსები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 302,
+            "parent_id": 300,
+            "name": "ზღაპრები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 301,
+            "parent_id": 300,
+            "name": "მხატვრული",
+            "image": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 292,
+        "parent_id": 291,
+        "name": "მხატვრული",
+        "image": null,
+        "children": [
+          {
+            "id": 499,
+            "parent_id": 292,
+            "name": "ისტორიული",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 299,
+            "parent_id": 292,
+            "name": "პოემა",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 298,
+            "parent_id": 292,
+            "name": "პოეზია",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 297,
+            "parent_id": 292,
+            "name": "ბიოგრაფიული",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 296,
+            "parent_id": 292,
+            "name": "სათავგადასავლო",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 295,
+            "parent_id": 292,
+            "name": "ფენტეზი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 294,
+            "parent_id": 292,
+            "name": "დეტექტივი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 293,
+            "parent_id": 292,
+            "name": "რომანი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 535,
+            "parent_id": 292,
+            "name": "პროზა",
+            "image": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 514,
+        "parent_id": 291,
+        "name": "უცხოენოვანი ლიტერატურა",
+        "image": "https://apiv1.biblusi.ge/storage/category/Egt7Clmv2oL7djpwMalhPWZTo88R9M5bLGeylKtK.png",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 348,
+    "parent_id": null,
+    "name": "საკანცელარიო ნივთები",
+    "image": "https://apiv1.biblusi.ge/storage/category/JFFCq08o1WD7y2GFGomgSILmYlCFAT8KOYjFgg0s.jpg",
+    "children": [
+      {
+        "id": 355,
+        "parent_id": 348,
+        "name": "სასკოლო პროდუქცია",
+        "image": null,
+        "children": [
+          {
+            "id": 356,
+            "parent_id": 355,
+            "name": "ზურგჩანთა",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 357,
+            "parent_id": 355,
+            "name": "პენალი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 362,
+            "parent_id": 355,
+            "name": "სასკოლო ნაკრები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 536,
+            "parent_id": 355,
+            "name": "რუქა",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 360,
+            "parent_id": 355,
+            "name": "თვალსაჩინოება",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 358,
+            "parent_id": 355,
+            "name": "ანბანი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 361,
+            "parent_id": 355,
+            "name": "საანგარიშო",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 359,
+            "parent_id": 355,
+            "name": "გლობუსი/რუკა",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 401,
+            "parent_id": 355,
+            "name": "წიგნის/რვეულის შემოსაკრავი",
+            "image": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 373,
+        "parent_id": 348,
+        "name": "საწერი/სახატავი პროდუქცია",
+        "image": null,
+        "children": [
+          {
+            "id": 374,
+            "parent_id": 373,
+            "name": "კალამი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 375,
+            "parent_id": 373,
+            "name": "ფანქარი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 377,
+            "parent_id": 373,
+            "name": "მარკერი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 376,
+            "parent_id": 373,
+            "name": "ფლომასტერი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 378,
+            "parent_id": 373,
+            "name": "ცარცი",
+            "image": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 364,
+        "parent_id": 348,
+        "name": "ქაღალდის პროდუქცია",
+        "image": null,
+        "children": [
+          {
+            "id": 369,
+            "parent_id": 364,
+            "name": "რვეული",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 365,
+            "parent_id": 364,
+            "name": "ბლოკნოტი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 370,
+            "parent_id": 364,
+            "name": "სახატავი რვეული",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 366,
+            "parent_id": 364,
+            "name": "გასაფერადებელი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 372,
+            "parent_id": 364,
+            "name": "სტიკერები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 371,
+            "parent_id": 364,
+            "name": "ჩასანიშნი ფურცელი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 368,
+            "parent_id": 364,
+            "name": "კონვერტი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 367,
+            "parent_id": 364,
+            "name": "კალენდარი",
+            "image": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 387,
+        "parent_id": 348,
+        "name": "სამაგიდე აქსესუარები",
+        "image": null,
+        "children": [
+          {
+            "id": 521,
+            "parent_id": 387,
+            "name": "ფურცლის პლანშეტი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 520,
+            "parent_id": 387,
+            "name": "ფულის რეზინა",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 519,
+            "parent_id": 387,
+            "name": "მელანი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 518,
+            "parent_id": 387,
+            "name": "ორგანაიზერი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 517,
+            "parent_id": 387,
+            "name": "კლიფსი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 399,
+            "parent_id": 387,
+            "name": "ჭიკარტი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 398,
+            "parent_id": 387,
+            "name": "წებო",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 397,
+            "parent_id": 387,
+            "name": "სტეპლერი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 396,
+            "parent_id": 387,
+            "name": "სკრეპი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 395,
+            "parent_id": 387,
+            "name": "სკოჩი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 394,
+            "parent_id": 387,
+            "name": "სახაზავი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 392,
+            "parent_id": 387,
+            "name": "სათლელი/საშლელი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 391,
+            "parent_id": 387,
+            "name": "მაკრატელი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 390,
+            "parent_id": 387,
+            "name": "კორექტორი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 388,
+            "parent_id": 387,
+            "name": "დირაკოლი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 389,
+            "parent_id": 387,
+            "name": "კალკულატორი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 546,
+            "parent_id": 387,
+            "name": "თაბახის ფურცლები",
+            "image": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 379,
+        "parent_id": 348,
+        "name": "სამხატვრო/საძერწი პროდუქცია",
+        "image": null,
+        "children": [
+          {
+            "id": 516,
+            "parent_id": 379,
+            "name": "პასტელები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 515,
+            "parent_id": 379,
+            "name": "ფერადი ფანქრები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 386,
+            "parent_id": 379,
+            "name": "ფუნჯის ჭიქა",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 385,
+            "parent_id": 379,
+            "name": "ფუნჯი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 384,
+            "parent_id": 379,
+            "name": "ფიგურების საძერწი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 383,
+            "parent_id": 379,
+            "name": "სახატავი დაფა",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 382,
+            "parent_id": 379,
+            "name": "საძერწი მასალა",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 381,
+            "parent_id": 379,
+            "name": "საღებავი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 380,
+            "parent_id": 379,
+            "name": "სამხატვრო ნაკრები",
+            "image": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 363,
+        "parent_id": 348,
+        "name": "იმპულსური კანცელარია",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 522,
+        "parent_id": 348,
+        "name": "კომპლექტები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 400,
+        "parent_id": 348,
+        "name": "დაფა/დაფის აქსესუარები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 541,
+        "parent_id": 348,
+        "name": "აქსესუარები",
+        "image": null,
+        "children": [
+          {
+            "id": 548,
+            "parent_id": 541,
+            "name": "სასაჩუქრე ჩანთა",
+            "image": null,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 402,
+    "parent_id": null,
+    "name": "აქსესუარები",
+    "image": "https://apiv1.biblusi.ge/storage/category/g5YLxLRRdodtdPywFahmHUlpCoihjpsvVHmRQTVw.png",
+    "children": [
+      {
+        "id": 403,
+        "parent_id": 402,
+        "name": "საკვები კონტეინერი/წყლის ბოთლი/თერმოსი",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 404,
+        "parent_id": 402,
+        "name": "სადღესასწაულო აქსესუარები",
+        "image": null,
+        "children": [
+          {
+            "id": 408,
+            "parent_id": 404,
+            "name": "სააღდგომო აქსესუარები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 409,
+            "parent_id": 404,
+            "name": "სასაჩუქრე ნაკრებები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 407,
+            "parent_id": 404,
+            "name": "ჰელოუინი",
+            "image": "https://apiv1.biblusi.ge/storage/category/0xwKc6HQSTv4Oyhp2GXMfRLxFu7OoVuwOkOy0n0W.png",
+            "children": []
+          },
+          {
+            "id": 406,
+            "parent_id": 404,
+            "name": "საქორწინო აქსესუარები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 405,
+            "parent_id": 404,
+            "name": "დაბადების დღის აქსესუარები",
+            "image": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 432,
+        "parent_id": 402,
+        "name": "სხვადასხვა",
+        "image": null,
+        "children": [
+          {
+            "id": 437,
+            "parent_id": 432,
+            "name": "საზაფხულო აქსესუარები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 438,
+            "parent_id": 432,
+            "name": "ფოტოალბომი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 434,
+            "parent_id": 432,
+            "name": "სუვენირები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 435,
+            "parent_id": 432,
+            "name": "ქოლგა",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 433,
+            "parent_id": 432,
+            "name": "ბრელოკი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 436,
+            "parent_id": 432,
+            "name": "საწვიმარი",
+            "image": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 421,
+        "parent_id": 402,
+        "name": "სილამაზის აქსესუარები",
+        "image": null,
+        "children": [
+          {
+            "id": 428,
+            "parent_id": 421,
+            "name": "ჩანთები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 427,
+            "parent_id": 421,
+            "name": "თმის სამაგრი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 425,
+            "parent_id": 421,
+            "name": "სარკე",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 429,
+            "parent_id": 421,
+            "name": "ტუჩსაცხი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 426,
+            "parent_id": 421,
+            "name": "სამაჯური",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 424,
+            "parent_id": 421,
+            "name": "სავარცხელი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 423,
+            "parent_id": 421,
+            "name": "კოსმეტიკის ჩანთა",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 422,
+            "parent_id": 421,
+            "name": "საფულე",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 430,
+            "parent_id": 421,
+            "name": "წინდა",
+            "image": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 414,
+        "parent_id": 402,
+        "name": "სახლის დეკორი",
+        "image": null,
+        "children": [
+          {
+            "id": 547,
+            "parent_id": 414,
+            "name": "სახლის დეკორაცია",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 533,
+            "parent_id": 414,
+            "name": "სანთელი / სასანთლე",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 419,
+            "parent_id": 414,
+            "name": "დეკორატიული სანათი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 418,
+            "parent_id": 414,
+            "name": "კედლის და მაგიდის საათი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 417,
+            "parent_id": 414,
+            "name": "სურათის ჩარჩო",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 416,
+            "parent_id": 414,
+            "name": "ყულაბა",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 415,
+            "parent_id": 414,
+            "name": "ჭიქა",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 420,
+            "parent_id": 414,
+            "name": "კანვასები",
+            "image": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 410,
+        "parent_id": 402,
+        "name": "სამოგზაურო",
+        "image": null,
+        "children": [
+          {
+            "id": 412,
+            "parent_id": 410,
+            "name": "ჩემოდნები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 411,
+            "parent_id": 410,
+            "name": "კისრის ბალიშები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 413,
+            "parent_id": 410,
+            "name": "ჩემოდნის საკიდები",
+            "image": null,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 439,
+    "parent_id": null,
+    "name": "წიგნის/ელექტრო აქსესუარები",
+    "image": "https://apiv1.biblusi.ge/storage/category/zZCZkmlC7wmlDTegwc9CAZUoOHDtCw2Qg8CLvM7H.jpg",
+    "children": [
+      {
+        "id": 442,
+        "parent_id": 439,
+        "name": "წიგნის აქსესუარები",
+        "image": null,
+        "children": [
+          {
+            "id": 445,
+            "parent_id": 442,
+            "name": "სხვადასხვა",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 444,
+            "parent_id": 442,
+            "name": "სანიშნე",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 443,
+            "parent_id": 442,
+            "name": "სანათი",
+            "image": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 441,
+        "parent_id": 439,
+        "name": "ტელეფონის აქსესუარები",
+        "image": null,
+        "children": [
+          {
+            "id": 538,
+            "parent_id": 441,
+            "name": "ტელეფონის აქსესუარები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 449,
+            "parent_id": 441,
+            "name": "პორტატული დამტენი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 448,
+            "parent_id": 441,
+            "name": "USB კაბელი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 447,
+            "parent_id": 441,
+            "name": "ყურსასმენები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 446,
+            "parent_id": 441,
+            "name": "ქეისები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 537,
+            "parent_id": 441,
+            "name": "დინამიკი",
+            "image": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 534,
+        "parent_id": 439,
+        "name": "საათები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 545,
+        "parent_id": 439,
+        "name": "მეხსიერების ბარათი",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 544,
+        "parent_id": 439,
+        "name": "მანქანის აქსესუარები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 543,
+        "parent_id": 439,
+        "name": "სათვალე/აქსესუარები",
+        "image": null,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 619,
+    "parent_id": null,
+    "name": "სასკოლო",
+    "image": "https://apiv1.biblusi.ge/storage/category/tFI4W5FWjv5bmVqIAEmUT140Uybt2ZNAogVzWXOL.png",
+    "children": [
+      {
+        "id": 620,
+        "parent_id": 619,
+        "name": "კალამი/ფანქარი/ფლომასტერი/პასტელი",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 621,
+        "parent_id": 619,
+        "name": "ზურგჩანთები და ჩანთები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 622,
+        "parent_id": 619,
+        "name": "რვეულები და ბლოკნოტები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 623,
+        "parent_id": 619,
+        "name": "პენალი/სავსე პენალი",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 624,
+        "parent_id": 619,
+        "name": "სახატავი აქსესუარები და გასაფერადებლები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 625,
+        "parent_id": 619,
+        "name": "სათლელი და  საშლელი",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 626,
+        "parent_id": 619,
+        "name": "საძერწი საშუალებები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 627,
+        "parent_id": 619,
+        "name": "სხვა სასკოლო - საკანცელარიო ნივთები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 638,
+        "parent_id": 619,
+        "name": "საოფისე კანცელარია",
+        "image": "https://apiv1.biblusi.ge/storage/category/3zIoxou1cLd1CO4DrLUdyf7pIlHCUeImK61IeG7E.png",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 634,
+    "parent_id": null,
+    "name": "საახალწლო",
+    "image": "https://apiv1.biblusi.ge/storage/category/OrSAAElr2FYFsTip4HSqAe5gjz61UmOWQIRByJbh.png",
+    "children": [
+      {
+        "id": 635,
+        "parent_id": 634,
+        "name": "ნაძვის ხე",
+        "image": "https://apiv1.biblusi.ge/storage/category/mEkaFCIeEc34qgefCC3BkmgpMhXC0G9TItinyxI2.jpg",
+        "children": []
+      },
+      {
+        "id": 636,
+        "parent_id": 634,
+        "name": "ნაძვის ხის სათამაშოები",
+        "image": "https://apiv1.biblusi.ge/storage/category/G9dtrDmoHrimUxzHbAKJjutHiLWb9L3FjtTtHzMP.jpg",
+        "children": []
+      },
+      {
+        "id": 629,
+        "parent_id": 634,
+        "name": "საახალწლო დეკორატიული აქსესუარები",
+        "image": "https://apiv1.biblusi.ge/storage/category/p0Z8UCMjxOjZawh3it5fvLtTld1Sx77L9o0mYQBv.jpg",
+        "children": []
+      },
+      {
+        "id": 630,
+        "parent_id": 634,
+        "name": "სანტა და სხვა თოჯინები",
+        "image": "https://apiv1.biblusi.ge/storage/category/dkypTmtTdq5zRCxgGV5O2gV02yOI3L9WYzdo02hu.jpg",
+        "children": []
+      },
+      {
+        "id": 631,
+        "parent_id": 634,
+        "name": "კერამიკული თოჯინები და ფიგურები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 632,
+        "parent_id": 634,
+        "name": "საახალწლო განათება",
+        "image": "https://apiv1.biblusi.ge/storage/category/LyuzvGAifynxU1pXQiLvySho29HxKidxZaV0WMtx.jpg",
+        "children": []
+      },
+      {
+        "id": 633,
+        "parent_id": 634,
+        "name": "საახალწლო ჭურჭერლი",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 637,
+        "parent_id": 634,
+        "name": "საახალწლო ტექსტილი",
+        "image": null,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 329,
+    "parent_id": null,
+    "name": "არტი და კრაფტი",
+    "image": "https://apiv1.biblusi.ge/storage/category/YSVV2OTLlfCx7zth22hCCVFRgUwbhjS1ZFEQP0gv.jpg",
+    "children": [
+      {
+        "id": 334,
+        "parent_id": 329,
+        "name": "ასაწყობი პროდუქცია",
+        "image": null,
+        "children": [
+          {
+            "id": 337,
+            "parent_id": 334,
+            "name": "კრაფტის ნაკრები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 335,
+            "parent_id": 334,
+            "name": "თაბაშირი/თიხა",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 336,
+            "parent_id": 334,
+            "name": "კრაფტის მძივები/აქსესუარები",
+            "image": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 342,
+        "parent_id": 329,
+        "name": "კინეტიკური ქვიშა",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 343,
+        "parent_id": 329,
+        "name": "სხვადსხვა აქსესუარები",
+        "image": null,
+        "children": [
+          {
+            "id": 347,
+            "parent_id": 343,
+            "name": "ფორმებიანი დირაკოლი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 346,
+            "parent_id": 343,
+            "name": "ფერადი ფხვნილი და წებო",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 345,
+            "parent_id": 343,
+            "name": "ტატუ",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 344,
+            "parent_id": 343,
+            "name": "წინსაფარი",
+            "image": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 338,
+        "parent_id": 329,
+        "name": "ქარგვა/კერვა",
+        "image": null,
+        "children": [
+          {
+            "id": 339,
+            "parent_id": 338,
+            "name": "კერვა",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 340,
+            "parent_id": 338,
+            "name": "ქარგვა",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 341,
+            "parent_id": 338,
+            "name": "აქსესუარები",
+            "image": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 330,
+        "parent_id": 329,
+        "name": "დეკორატიული პროდუქცია",
+        "image": null,
+        "children": [
+          {
+            "id": 333,
+            "parent_id": 330,
+            "name": "დეკორატიული ქაღალდი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 332,
+            "parent_id": 330,
+            "name": "დეკორატიული ლენტა",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 331,
+            "parent_id": 330,
+            "name": "დეკორატიული აქსესუარები",
+            "image": null,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 431,
+    "parent_id": null,
+    "name": "ანტიბაქტერიული",
+    "image": "https://apiv1.biblusi.ge/storage/category/8mJH9msHjZ4OXQKcVtIidInCEzm9MHpg4du4TInq.jpg",
+    "children": []
+  },
+  {
+    "id": 525,
+    "parent_id": null,
+    "name": "სათამაშოები",
+    "image": "https://apiv1.biblusi.ge/storage/category/pTrrzO7Aey6ev8wY9QDFjuLgRse0tvnjGOlx6Bd6.png",
+    "children": [
+      {
+        "id": 528,
+        "parent_id": 525,
+        "name": "ფაზლები/3D ფაზლები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 530,
+        "parent_id": 525,
+        "name": "სამაგიდო თამაშები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 531,
+        "parent_id": 525,
+        "name": "იმპულსური სათამაშოები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 526,
+        "parent_id": 525,
+        "name": "შემეცნებითი სათამაშოები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 529,
+        "parent_id": 525,
+        "name": "რბილი სათამაშოები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 532,
+        "parent_id": 525,
+        "name": "რობოტები/ტრანსფორმერები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 542,
+        "parent_id": 525,
+        "name": "საზაფხულო და სპორტული",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 527,
+        "parent_id": 525,
+        "name": "ფიგურები",
+        "image": null,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 474,
+    "parent_id": null,
+    "name": "პეპელას სათამაშოები",
+    "image": "https://apiv1.biblusi.ge/storage/category/lZYyZpHHcsP0IMb5XdI7OKkQBCfd72cVJeff0bld.jpg",
+    "children": [
+      {
+        "id": 492,
+        "parent_id": 474,
+        "name": "ხის სათამაშოები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 491,
+        "parent_id": 474,
+        "name": "ჩვილის სათამაშოები და აქსესუარები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 490,
+        "parent_id": 474,
+        "name": "შემეცნებითი სათამაშოები",
+        "image": "https://apiv1.biblusi.ge/storage/category/ltj4HegRziqItqxl5d6UVNgpu9LW5RL3vbBhhxHP.png",
+        "children": []
+      },
+      {
+        "id": 489,
+        "parent_id": 474,
+        "name": "ფიგურები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 488,
+        "parent_id": 474,
+        "name": "ფაზლები/3D ფაზლები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 487,
+        "parent_id": 474,
+        "name": "სუპერგმირები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 486,
+        "parent_id": 474,
+        "name": "სამაგიდო თამაშები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 485,
+        "parent_id": 474,
+        "name": "საზაფხულო და სპორტული სათამაშოები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 484,
+        "parent_id": 474,
+        "name": "რობოტები/ტრანსფორმერები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 483,
+        "parent_id": 474,
+        "name": "რბილი სათამაშოები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 482,
+        "parent_id": 474,
+        "name": "მუსიკალური სათამაშოები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 481,
+        "parent_id": 474,
+        "name": "მანქანები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 480,
+        "parent_id": 474,
+        "name": "კრეატიული სათამაშოები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 479,
+        "parent_id": 474,
+        "name": "კონსტრუქტორები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 478,
+        "parent_id": 474,
+        "name": "იმიტაციის სათამაშოები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 477,
+        "parent_id": 474,
+        "name": "იარაღები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 476,
+        "parent_id": 474,
+        "name": "თოჯინები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 475,
+        "parent_id": 474,
+        "name": "ჟირაფი ჟოზე",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 540,
+        "parent_id": 474,
+        "name": "ბატუტი",
+        "image": null,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 456,
+    "parent_id": null,
+    "name": "XS  სათამაშოები",
+    "image": "https://apiv1.biblusi.ge/storage/category/PneBIP4iUcuf1Mmgts7rU8wMJktrkltscynq2rAB.jpg",
+    "children": [
+      {
+        "id": 473,
+        "parent_id": 456,
+        "name": "საზაფხულო  და სპორტული სათამაშოები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 472,
+        "parent_id": 456,
+        "name": "ხის სათამაშოები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 471,
+        "parent_id": 456,
+        "name": "ჩვილის სათამაშოები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 470,
+        "parent_id": 456,
+        "name": "შემეცნებითი სათამაშოები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 469,
+        "parent_id": 456,
+        "name": "ფიგურები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 468,
+        "parent_id": 456,
+        "name": "ფაზლები/3D  ფაზლები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 467,
+        "parent_id": 456,
+        "name": "სუპერგმირები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 466,
+        "parent_id": 456,
+        "name": "სამაგიდო თამაშები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 465,
+        "parent_id": 456,
+        "name": "რობოტები/ტრანსფორმერები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 464,
+        "parent_id": 456,
+        "name": "რბილი სათამაშოები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 463,
+        "parent_id": 456,
+        "name": "მუსიკალური სათამაშოები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 462,
+        "parent_id": 456,
+        "name": "კრეატიული სათამაშოები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 461,
+        "parent_id": 456,
+        "name": "კონსტრუქტორები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 460,
+        "parent_id": 456,
+        "name": "იმიტაციის სათამაშოები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 459,
+        "parent_id": 456,
+        "name": "იარაღები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 458,
+        "parent_id": 456,
+        "name": "მანქანები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 457,
+        "parent_id": 456,
+        "name": "თოჯინები",
+        "image": null,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 551,
+    "parent_id": null,
+    "name": "სათამაშოები NEW",
+    "image": null,
+    "children": [
+      {
+        "id": 552,
+        "parent_id": 551,
+        "name": "ხის სათამაშოები",
+        "image": null,
+        "children": [
+          {
+            "id": 553,
+            "parent_id": 552,
+            "name": "ფაზლები და კონსტრუქტორები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 554,
+            "parent_id": 552,
+            "name": "მანქანები და ფიგურები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 555,
+            "parent_id": 552,
+            "name": "სპორტული და  ეზოს",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 556,
+            "parent_id": 552,
+            "name": "სხვა",
+            "image": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 557,
+        "parent_id": 551,
+        "name": "კონსტრუქტორები",
+        "image": null,
+        "children": [
+          {
+            "id": 558,
+            "parent_id": 557,
+            "name": "LEGO",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 559,
+            "parent_id": 557,
+            "name": "კონსტრუტორები",
+            "image": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 560,
+        "parent_id": 551,
+        "name": "შემეცნებითი და საგანმანათლებლო",
+        "image": null,
+        "children": [
+          {
+            "id": 561,
+            "parent_id": 560,
+            "name": "მექანიკური ლაბორატორიები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 562,
+            "parent_id": 560,
+            "name": "ლაბორატორიები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 563,
+            "parent_id": 560,
+            "name": "კლასიკური სამეცნიერო",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 564,
+            "parent_id": 560,
+            "name": "დაფები და სხვა საგანმანათლებლო",
+            "image": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 565,
+        "parent_id": 551,
+        "name": "მანქანები და რობოტები",
+        "image": null,
+        "children": [
+          {
+            "id": 566,
+            "parent_id": 565,
+            "name": "მატარებლები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 567,
+            "parent_id": 565,
+            "name": "ტრასები და ნაკრებები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 568,
+            "parent_id": 565,
+            "name": "მანქანები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 569,
+            "parent_id": 565,
+            "name": "დისტანციურად მართვადი მანქანები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 570,
+            "parent_id": 565,
+            "name": "დისტანციურად მართვადი რობოტები",
+            "image": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 571,
+        "parent_id": 551,
+        "name": "თოჯინები",
+        "image": null,
+        "children": [
+          {
+            "id": 572,
+            "parent_id": 571,
+            "name": "თოჯინები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 573,
+            "parent_id": 571,
+            "name": "ინტერაქტიული",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 574,
+            "parent_id": 571,
+            "name": "აქსესუარები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 575,
+            "parent_id": 571,
+            "name": "ნაკრებები",
+            "image": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 576,
+        "parent_id": 551,
+        "name": "ფიგურები",
+        "image": null,
+        "children": [
+          {
+            "id": 577,
+            "parent_id": 576,
+            "name": "მინი ფიგურები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 578,
+            "parent_id": 576,
+            "name": "გმირები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 579,
+            "parent_id": 576,
+            "name": "ნაკრებები",
+            "image": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 580,
+        "parent_id": 551,
+        "name": "რბილი სათამაშოები",
+        "image": null,
+        "children": [
+          {
+            "id": 581,
+            "parent_id": 580,
+            "name": "ცხოველები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 582,
+            "parent_id": 580,
+            "name": "პერსონაჟები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 583,
+            "parent_id": 580,
+            "name": "ინტერაქტიული",
+            "image": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 584,
+        "parent_id": 551,
+        "name": "როლური",
+        "image": null,
+        "children": [
+          {
+            "id": 586,
+            "parent_id": 584,
+            "name": "საბავშვო კოსმეტიკა და ბიჟუტერია",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 587,
+            "parent_id": 584,
+            "name": "სამუშაო და პროფესიული",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 588,
+            "parent_id": 584,
+            "name": "სამზარეულო",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 589,
+            "parent_id": 584,
+            "name": "მუსიკალური",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 590,
+            "parent_id": 584,
+            "name": "ფორმები და აქსესუარები",
+            "image": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 591,
+        "parent_id": 551,
+        "name": "სამაგიდო თამაშები და ფაზლები",
+        "image": null,
+        "children": [
+          {
+            "id": 592,
+            "parent_id": 591,
+            "name": "სამაგიდო თამაშები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 593,
+            "parent_id": 591,
+            "name": "ფაზლები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 594,
+            "parent_id": 591,
+            "name": "3D ფაზლები",
+            "image": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 595,
+        "parent_id": 551,
+        "name": "სეზონური და ეზოს სათამაშოები",
+        "image": null,
+        "children": [
+          {
+            "id": 596,
+            "parent_id": 595,
+            "name": "ქვიშის სათამაშოები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 597,
+            "parent_id": 595,
+            "name": "გორგოლაჭები,  სკეიტბორდები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 598,
+            "parent_id": 595,
+            "name": "თვითგორია, ველოსიპედი და მანქანები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 599,
+            "parent_id": 595,
+            "name": "სპორტული",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 600,
+            "parent_id": 595,
+            "name": "აუზის და წყლის",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 601,
+            "parent_id": 595,
+            "name": "იარაღი, თოფები და ბლასტერები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 602,
+            "parent_id": 595,
+            "name": "სახლები და სასრიალოები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 603,
+            "parent_id": 595,
+            "name": "ბურთები და ბუშტები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 604,
+            "parent_id": 595,
+            "name": "საპნის ბუშტები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 605,
+            "parent_id": 595,
+            "name": "კარვები და სხვა",
+            "image": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 606,
+        "parent_id": 551,
+        "name": "ჩვილის სათამაშოები და მოვლა",
+        "image": null,
+        "children": [
+          {
+            "id": 607,
+            "parent_id": 606,
+            "name": "ძიძა კამერები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 608,
+            "parent_id": 606,
+            "name": "ჰაერის დამატენიანებლები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 609,
+            "parent_id": 606,
+            "name": "ჩვილის მოვლა და სხვა აქსესუარები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 610,
+            "parent_id": 606,
+            "name": "პლასტმასის სათამაშოები და აბაზანის აქსესუარები",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 611,
+            "parent_id": 606,
+            "name": "ჩვილის ავეჯი და აქსესუარები",
+            "image": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 612,
+        "parent_id": 551,
+        "name": "ასაკის და ბრენდის მიხედვით",
+        "image": null,
+        "children": [
+          {
+            "id": 613,
+            "parent_id": 612,
+            "name": "0-2 წელი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 614,
+            "parent_id": 612,
+            "name": "3-4 წელი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 615,
+            "parent_id": 612,
+            "name": "5-7 წელი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 616,
+            "parent_id": 612,
+            "name": "8-10 წელი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 617,
+            "parent_id": 612,
+            "name": "10 + წელი",
+            "image": null,
+            "children": []
+          },
+          {
+            "id": 618,
+            "parent_id": 612,
+            "name": "ბრენდის მიხედვით",
+            "image": null,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 450,
+    "parent_id": null,
+    "name": "ლუპენი",
+    "image": "https://apiv1.biblusi.ge/storage/category/rP6kswUf1TK7IcDk4nvdGTzfkIaQs9IEJDHpmk6w.jpg",
+    "children": [
+      {
+        "id": 501,
+        "parent_id": 450,
+        "name": "მექანიკური ფანქარი",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 451,
+        "parent_id": 450,
+        "name": "ბლოკნოტი",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 455,
+        "parent_id": 450,
+        "name": "კომპლექტები",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 454,
+        "parent_id": 450,
+        "name": "აქსესუარები",
+        "image": "https://apiv1.biblusi.ge/storage/category/f8oFi2Ce58aX17Rnbw8tCOqukqG7i7wLkiCue8qC.png",
+        "children": []
+      },
+      {
+        "id": 453,
+        "parent_id": 450,
+        "name": "ჩანთა/საფულე",
+        "image": null,
+        "children": []
+      },
+      {
+        "id": 452,
+        "parent_id": 450,
+        "name": "კალამი",
+        "image": null,
+        "children": []
+      }
+    ]
+  }
+]
