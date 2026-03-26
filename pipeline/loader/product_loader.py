@@ -1,6 +1,6 @@
-from db_manager.queries import select_product, insert_product, insert_product_image
+from db_manager.queries import insert_product, insert_product_image
 from pipeline.loader.loader import loader
-from pipeline.alta_transformer.data_parser import ParsedProduct
+from db_manager.parsed_product import ParsedProduct
 
 
 def insert_product_to_db(parsed: ParsedProduct) -> int | None:
@@ -28,5 +28,3 @@ def parse_images(product_data: dict, product_id: int):
         return
     batch = [(product_id, url) for url in images]
     loader.execute_many(insert_product_image, batch)
-
-

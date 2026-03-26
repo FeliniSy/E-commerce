@@ -11,6 +11,17 @@ insert_category = """
                       image_url = COALESCE (EXCLUDED.image_url, categories.image_url) \
                   """
 
+insert_category_with_id = """
+                          INSERT INTO categories (id, name, parent_id, slug, image_url)
+                          VALUES (%s, %s, %s, %s, %s) ON CONFLICT (id) DO
+                          UPDATE SET
+                              name = EXCLUDED.name,
+                              parent_id = EXCLUDED.parent_id,
+                              slug = EXCLUDED.slug,
+                              image_url = COALESCE(EXCLUDED.image_url, categories.image_url)
+                          RETURNING id \
+                          """
+
 select_brand = "SELECT id FROM brands WHERE name = %s"
 insert_brand = """
                INSERT INTO brands (name)
