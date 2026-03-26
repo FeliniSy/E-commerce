@@ -10,9 +10,14 @@ class Settings(BaseSettings):
     FURNITURE_CAT_API: str = "https://koncept.ge/collections.json?limit=100"
     FURNITURE_PROD_API: str = "https://koncept.ge/collections/{0}/products.json?limit=250&page={1}"
 
+    #apis for biblus
+    BIBLUSI_API:str = "https://apiv1.biblusi.ge/api/book?page={0}"
+    BIBLUSI_CAT_API:str = "https://apiv1.biblusi.ge/api/category"
+    BIBLUSI_PROD_API:str = "https://apiv1.biblusi.ge/api/book/27060?author=1&category=1&rate=1"
+
     # DB URL
-    # DB_URL:str = "postgresql://postgres:postgres@localhost:5432/ecommerce"
-    DB_URL:str = "postgresql://user:password@10.217.143.178:5436/products_db"
+    # DB_URL:str = "postgresql://postgres:postgres@localhost:5433/ecommerce"
+    DB_URL:str = "postgresql://user:password@10.217.143.178:5432/products_db"
 
     #GCS CLIENT
     BUCKET_NAME:str = "vipo-images"
