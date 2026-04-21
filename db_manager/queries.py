@@ -8,7 +8,10 @@ insert_category = """
                   INSERT INTO categories (name, parent_id, slug, image_url)
                   VALUES (%s, %s, %s, %s) ON CONFLICT (slug) DO
                   UPDATE SET
-                      image_url = COALESCE (EXCLUDED.image_url, categories.image_url) \
+                      name = EXCLUDED.name,
+                      parent_id = EXCLUDED.parent_id,
+                      image_url = COALESCE (EXCLUDED.image_url, categories.image_url)
+                  RETURNING id \
                   """
 
 insert_category_with_id = """
