@@ -1,4 +1,3 @@
-import asyncio
 from pipeline.extractor.scrapper import page_scrapper
 from utils.settings import settings
 from utils.logger import logger
@@ -32,14 +31,3 @@ async def fetch_all_biblusi_ids() -> list[int]:
 
     logger.info(f"Completed fetching all IDs. Total: {len(all_ids)} book IDs")
     return all_ids
-
-
-async def main():
-    ids = await fetch_all_biblusi_ids()
-    print(f"Total IDs collected: {len(ids)}")
-    print(f"First 10 IDs: {ids[:10]}")
-    return ids
-
-#
-# if __name__ == "__main__":
-#     asyncio.run(main())
