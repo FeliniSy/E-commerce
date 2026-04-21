@@ -5,7 +5,7 @@ from utils.logger import logger
 category_cache = {}
 
 # Parent category ID for all Sportlines categories
-SPORTLINES_PARENT_CATEGORY_ID = 165
+SPORTLINES_PARENT_CATEGORY_ID = 372
 
 
 def get_or_create_sportlines_category(category_data: dict | None) -> int:
@@ -28,10 +28,8 @@ def get_or_create_sportlines_category(category_data: dict | None) -> int:
         return category_id
 
     logger.info(f"Creating new category: {category_name} (slug: {category_slug})")
-    loader.execute(insert_category, (category_name, SPORTLINES_PARENT_CATEGORY_ID, category_slug, None))
-
-    result = loader.fetch(select_category, (category_name,))
-    category_id = result[0][0] if result else None
+    result = loader.fetch(insert_category, (category_name, SPORTLINES_PARENT_CATEGORY_ID, category_slug, None))
+    category_id = result[0][0] if result and len(result) > 0 else None
 
     if category_id:
         category_cache[category_name] = category_id
@@ -53,10 +51,8 @@ def get_or_create_category(name: str, slug: str) -> int:
         return category_id
 
     logger.info(f"Creating new category: {name} (slug: {slug})")
-    loader.execute(insert_category, (name, SPORTLINES_PARENT_CATEGORY_ID, slug, None))
-
-    result = loader.fetch(select_category, (name,))
-    category_id = result[0][0] if result else None
+    result = loader.fetch(insert_category, (name, SPORTLINES_PARENT_CATEGORY_ID, slug, None))
+    category_id = result[0][0] if result and len(result) > 0 else None
 
     if category_id:
         category_cache[name] = category_id

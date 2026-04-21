@@ -29,7 +29,7 @@ def register_collection(collection_data: dict) -> None:
 
     category_id = get_or_create_category(
         name=title,
-        parent_id=161,
+        parent_id=643,
         image_url=image_url
     )
 
@@ -43,7 +43,7 @@ def get_or_create_collection_category(collection_handle: str) -> int:
 
     category_id = get_or_create_category(
         name=collection_handle,
-        parent_id=161,
+        parent_id=643,
         image_url=None
     )
     _collection_cache[collection_handle] = category_id
