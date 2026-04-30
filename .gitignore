@@ -4,6 +4,4 @@
 __pycache__
 logs
 credentials
-increase_pg_connections.sh
-KONCEPT_SETUP.md
 .claude
