@@ -14,6 +14,9 @@ python main.py --sources koncept biblusi sportlines
 # Run all sources
 python main.py --all
 
+#Run all sources in parallel
+python main.py --all --parallel
+
 # Run in parallel (faster)
 python main.py --sources alta koncept --parallel
 ```
